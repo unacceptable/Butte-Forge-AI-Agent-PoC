@@ -1,0 +1,27 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "set_rgb_color",
+      "description": "Set the RGB LED diode to a specific color. Accepts red, green, and blue values each between 0 and 255.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "red": {
+            "type": "integer",
+            "description": "Red channel value (0-255)"
+          },
+          "green": {
+            "type": "integer",
+            "description": "Green channel value (0-255)"
+          },
+          "blue": {
+            "type": "integer",
+            "description": "Blue channel value (0-255)"
+          }
+        },
+        "required": ["red", "green", "blue"]
+      }
+    }
+  }
+]
